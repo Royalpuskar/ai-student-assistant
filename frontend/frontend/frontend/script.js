@@ -4,12 +4,10 @@ function sendMessage() {
 
   let userText = input.value;
 
-  let userMsg = `<p><b>You:</b> ${userText}</p>`;
-  chatBox.innerHTML += userMsg;
+  if (userText === "") return;
 
-  // Fake AI response (for now)
-  let botMsg = `<p><b>AI:</b> Thinking...</p>`;
-  chatBox.innerHTML += botMsg;
+  chatBox.innerHTML += `<p><b>You:</b> ${userText}</p>`;
+  chatBox.innerHTML += `<p><b>AI:</b> Thinking...</p>`;
 
   input.value = "";
 }
