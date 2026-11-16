@@ -1,5 +1,13 @@
 # StudyNest — Student Study Assistant
 
+<!-- portfolio-website:start -->
+## Website
+
+[Open ai-student-assistant website](https://royalpuskar.github.io/ai-student-assistant/)
+
+Intended GitHub Pages address; deployment has not been verified. If it does not load, GitHub Pages must be enabled for the root of the main branch.
+<!-- portfolio-website:end -->
+
 **A working, responsive student productivity website with transparent, deterministic study tools.** Part of the [Royalpuskar](https://github.com/Royalpuskar) portfolio.
 
 The repository retains the original `ai-student-assistant` name, but this implementation does **not** call a live language model or pretend that heuristics are generative AI.
@@ -51,3 +59,10 @@ Do not enter sensitive records into publicly hosted services without understandi
 - `backend/server.js`: optional HTTP server (no Express/CORS dependency)
 - `core.test.mjs`, `server.test.mjs`: automated tests
 - `.github/workflows/verify.yml`: GitHub Actions checks
+
+
+<!-- portfolio-rights:start -->
+## Copyright
+
+© 2026 Puskar (Royalpuskar). All rights reserved for original project content, except where an applicable license grants permission. Third-party rights and notices remain with their owners.
+<!-- portfolio-rights:end -->
